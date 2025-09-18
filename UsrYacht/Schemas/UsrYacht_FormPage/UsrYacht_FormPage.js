@@ -237,10 +237,10 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"rowSpan": 1
 					},
 					"type": "crt.Input",
-					"label": "$Resources.Strings.PDS_UsrComment_t9s94na",
+					"multiline": false,
+					"label": "$Resources.Strings.PDS_UsrComment_bwwmjjj",
 					"labelPosition": "auto",
-					"control": "$PDS_UsrComment_t9s94na",
-					"multiline": false
+					"control": "$PDS_UsrComment_bwwmjjj"
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -272,6 +272,30 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
 				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "Number",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"colSpan": 1,
+						"row": 5,
+						"rowSpan": 1
+					},
+					"type": "crt.Input",
+					"label": "$Resources.Strings.PDS_UsrNumber_kmp1t7g",
+					"labelPosition": "auto",
+					"control": "$PDS_UsrNumber_kmp1t7g",
+					"multiline": false,
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 8
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -306,11 +330,6 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 							"path": "PDS.UsrPassengersNumber"
 						}
 					},
-					"PDS_UsrComment_t9s94na": {
-						"modelConfig": {
-							"path": "PDS.UsrComment"
-						}
-					},
 					"PDS_UsrCaptain_uw8pd48": {
 						"modelConfig": {
 							"path": "PDS.UsrCaptain"
@@ -329,6 +348,16 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"PDS_UsrManager_yd00opf": {
 						"modelConfig": {
 							"path": "PDS.UsrManager"
+						}
+					},
+					"PDS_UsrNumber_kmp1t7g": {
+						"modelConfig": {
+							"path": "PDS.UsrNumber"
+						}
+					},
+					"PDS_UsrComment_bwwmjjj": {
+						"modelConfig": {
+							"path": "PDS.UsrComment"
 						}
 					}
 				}
