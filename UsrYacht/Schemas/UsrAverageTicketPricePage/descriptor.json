@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "b3de55ee-b4ac-49e6-8e79-48b4c143054f",
+    "Name": "UsrAverageTicketPricePage",
+    "ModifiedOnUtc": "\/Date(1758696369000)\/",
+    "Parent": {
+      "UId": "27e1b215-163a-4b82-b0a6-9872a8dde6e4",
+      "Name": "PageWithTopAreaAndTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Average tikect price page"
+  }
+}

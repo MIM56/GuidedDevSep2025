@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Average tikect price page" />
+			<Item Name="Parameters.26e423fc-b9ac-105e-54b2-b2aa9477acab.Caption" Value="Average price, USD" />
+			<Item Name="Parameters.da26f981-9168-d445-7a08-cfae4a4ecf53.Caption" Value="SQL text" />
+		</Items>
+	</Group>
+</Resources>
